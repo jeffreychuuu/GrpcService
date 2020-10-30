@@ -2,6 +2,9 @@ import io.grpc.Channel;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.StatusRuntimeException;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,10 +23,14 @@ public class HelloWorldClient {
         blockingStub = HelloWorldServiceGrpc.newBlockingStub(channel);
     }
 
-    /** Say hello to server. */
-    public void greet(String name) {
-        logger.info("Will try to greet " + name + " ...");
-        Hello.HelloRequest request = Hello.HelloRequest.newBuilder().setText(name).build();
+    /** Send message to server. */
+    public void send(String name, String message) {
+        logger.info("Will try to send '" + message + "' to server by " + name + "...");
+        Hello.HelloRequest request = Hello.HelloRequest.newBuilder()
+                .setName(name)
+                .setMessage(message)
+                .build();
+
         Hello.HelloResponse response;
         try {
             response = blockingStub.hello(request);
@@ -38,23 +45,14 @@ public class HelloWorldClient {
      * greeting. The second argument is the target server.
      */
     public static void main(String[] args) throws Exception {
-        String user = "Jeffrey Chu Testing GRPC";
         // Access a service running on the local machine on port 50051
         String target = "localhost:50051";
-        // Allow passing in the user and target strings as command line arguments
-        if (args.length > 0) {
-            if ("--help".equals(args[0])) {
-                System.err.println("Usage: [name [target]]");
-                System.err.println("");
-                System.err.println("  name    The name you wish to be greeted by. Defaults to " + user);
-                System.err.println("  target  The server to connect to. Defaults to " + target);
-                System.exit(1);
-            }
-            user = args[0];
-        }
-        if (args.length > 1) {
-            target = args[1];
-        }
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("What is your name?");
+        String name = br.readLine();
+        System.out.println("What message you would like to send to server?");
+        String message = br.readLine();
 
         // Create a communication channel to the server, known as a Channel. Channels are thread-safe
         // and reusable. It is common to create channels at the beginning of your application and reuse
@@ -66,7 +64,7 @@ public class HelloWorldClient {
                 .build();
         try {
             HelloWorldClient client = new HelloWorldClient(channel);
-            client.greet(user);
+            client.send(name, message);
         } finally {
             // ManagedChannels use resources like threads and TCP connections. To prevent leaking these
             // resources the channel should be shut down when it will no longer be used. If it may be used

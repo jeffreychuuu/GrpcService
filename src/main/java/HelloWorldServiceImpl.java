@@ -5,14 +5,20 @@ public class HelloWorldServiceImpl extends HelloWorldServiceGrpc.HelloWorldServi
     public void hello(
             Hello.HelloRequest request,
             StreamObserver<Hello.HelloResponse> responseObserver) {
-        System.out.println(
-                "Handling hello endpoint: " + request.toString());
+        String requestor = request.getName();
+        String req_message = request.getMessage();
+
+        System.out.println("Requestor: " + requestor);
+        System.out.println("Message to server: " + req_message);
 
 
-        String text = request.getText() + " World";
+        String greeting_message = "Receive message '" + req_message + "' from " + requestor;
+
         Hello.HelloResponse response =
                 Hello.HelloResponse.newBuilder()
-                        .setText(text).build();
+                        .setMessage(greeting_message).build();
+
+        System.out.println("Response: " + response.getMessage());
 
         responseObserver.onNext(response);
         responseObserver.onCompleted();
