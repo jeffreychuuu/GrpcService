@@ -26,3 +26,8 @@ This service open port 50051. By try this service, you may run clientside.Server
 
 This service open port 50051. By try this service, you may run bidirectional.Server then run bidirectional.Client. By making a simple request with your name and message in Client side, it will multiple the request and send it to the server with multiple responses.
 
+
+
+## Reference
+
+https://grpc.io/docs/languages/java/basics/
