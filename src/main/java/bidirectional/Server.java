@@ -6,7 +6,7 @@ import service.StreamServiceImpl;
 import java.io.IOException;
 
 public class Server {
-    private static final int PORT = 50051;
+    private static final int PORT = 50054;
     private io.grpc.Server server;
 
     public void start() throws IOException {

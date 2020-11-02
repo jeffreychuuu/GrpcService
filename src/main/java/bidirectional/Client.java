@@ -45,7 +45,7 @@ public class Client {
             }
         };
 
-        StreamObserver<RequestData> request = asyncStub.biDirectionStreamService(responseData);
+        StreamObserver<RequestData> request = asyncStub.biDirectionalStreamService(responseData);
         long start = System.currentTimeMillis();
         for (int i = 0; i < 10; i++) {
             request.onNext(RequestData.newBuilder()
@@ -64,7 +64,7 @@ public class Client {
     }
 
     public static void main(String[] args) throws Exception {
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
+        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50054).usePlaintext().build();
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("What is your name?");
