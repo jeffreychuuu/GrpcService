@@ -1,4 +1,4 @@
-package twoWay;
+package bidirectional;
 
 import io.grpc.ServerBuilder;
 import service.StreamServiceImpl;

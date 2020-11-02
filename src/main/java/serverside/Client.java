@@ -1,10 +1,9 @@
-package serverSide;
+package serverside;
 
 import io.grpc.Channel;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.StatusRuntimeException;
-import service.Stream;
 import service.StreamServiceGrpc;
 import service.StreamServiceGrpc.StreamServiceBlockingStub;
 import service.Stream.RequestData;
@@ -14,7 +13,6 @@ import service.Stream.ResponseData;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Iterator;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -48,7 +46,7 @@ public class Client {
     }
 
     public static void main(String[] args) throws Exception {
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
+        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50052).usePlaintext().build();
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("What is your name?");

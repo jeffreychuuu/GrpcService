@@ -1,4 +1,4 @@
-package twoWay;
+package bidirectional;
 
 import io.grpc.Channel;
 import io.grpc.ManagedChannel;

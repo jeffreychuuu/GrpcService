@@ -67,7 +67,7 @@ public class StreamServiceImpl extends StreamServiceGrpc.StreamServiceImplBase {
     }
 
     @Override
-    public StreamObserver<RequestData> biDirectionStreamService(StreamObserver<ResponseData> responseObserver) {
+    public StreamObserver<RequestData> biDirectionalStreamService(StreamObserver<ResponseData> responseObserver) {
         // TODO Auto-generated method stub
         return new StreamObserver<RequestData>() {
 

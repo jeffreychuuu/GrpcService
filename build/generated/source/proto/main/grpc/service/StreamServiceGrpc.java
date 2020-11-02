@@ -121,34 +121,34 @@ public final class StreamServiceGrpc {
   }
 
   private static volatile io.grpc.MethodDescriptor<service.Stream.RequestData,
-      service.Stream.ResponseData> getBiDirectionStreamServiceMethod;
+      service.Stream.ResponseData> getBiDirectionalStreamServiceMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
-      fullMethodName = SERVICE_NAME + '/' + "BiDirectionStreamService",
+      fullMethodName = SERVICE_NAME + '/' + "BiDirectionalStreamService",
       requestType = service.Stream.RequestData.class,
       responseType = service.Stream.ResponseData.class,
       methodType = io.grpc.MethodDescriptor.MethodType.BIDI_STREAMING)
   public static io.grpc.MethodDescriptor<service.Stream.RequestData,
-      service.Stream.ResponseData> getBiDirectionStreamServiceMethod() {
-    io.grpc.MethodDescriptor<service.Stream.RequestData, service.Stream.ResponseData> getBiDirectionStreamServiceMethod;
-    if ((getBiDirectionStreamServiceMethod = StreamServiceGrpc.getBiDirectionStreamServiceMethod) == null) {
+      service.Stream.ResponseData> getBiDirectionalStreamServiceMethod() {
+    io.grpc.MethodDescriptor<service.Stream.RequestData, service.Stream.ResponseData> getBiDirectionalStreamServiceMethod;
+    if ((getBiDirectionalStreamServiceMethod = StreamServiceGrpc.getBiDirectionalStreamServiceMethod) == null) {
       synchronized (StreamServiceGrpc.class) {
-        if ((getBiDirectionStreamServiceMethod = StreamServiceGrpc.getBiDirectionStreamServiceMethod) == null) {
-          StreamServiceGrpc.getBiDirectionStreamServiceMethod = getBiDirectionStreamServiceMethod =
+        if ((getBiDirectionalStreamServiceMethod = StreamServiceGrpc.getBiDirectionalStreamServiceMethod) == null) {
+          StreamServiceGrpc.getBiDirectionalStreamServiceMethod = getBiDirectionalStreamServiceMethod =
               io.grpc.MethodDescriptor.<service.Stream.RequestData, service.Stream.ResponseData>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.BIDI_STREAMING)
-              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "BiDirectionStreamService"))
+              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "BiDirectionalStreamService"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   service.Stream.RequestData.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   service.Stream.ResponseData.getDefaultInstance()))
-              .setSchemaDescriptor(new StreamServiceMethodDescriptorSupplier("BiDirectionStreamService"))
+              .setSchemaDescriptor(new StreamServiceMethodDescriptorSupplier("BiDirectionalStreamService"))
               .build();
         }
       }
     }
-    return getBiDirectionStreamServiceMethod;
+    return getBiDirectionalStreamServiceMethod;
   }
 
   /**
@@ -222,9 +222,9 @@ public final class StreamServiceGrpc {
 
     /**
      */
-    public io.grpc.stub.StreamObserver<service.Stream.RequestData> biDirectionStreamService(
+    public io.grpc.stub.StreamObserver<service.Stream.RequestData> biDirectionalStreamService(
         io.grpc.stub.StreamObserver<service.Stream.ResponseData> responseObserver) {
-      return asyncUnimplementedStreamingCall(getBiDirectionStreamServiceMethod(), responseObserver);
+      return asyncUnimplementedStreamingCall(getBiDirectionalStreamServiceMethod(), responseObserver);
     }
 
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
@@ -251,12 +251,12 @@ public final class StreamServiceGrpc {
                 service.Stream.ResponseData>(
                   this, METHODID_CLIENT_SIDE_STREAM_SERVICE)))
           .addMethod(
-            getBiDirectionStreamServiceMethod(),
+            getBiDirectionalStreamServiceMethod(),
             asyncBidiStreamingCall(
               new MethodHandlers<
                 service.Stream.RequestData,
                 service.Stream.ResponseData>(
-                  this, METHODID_BI_DIRECTION_STREAM_SERVICE)))
+                  this, METHODID_BI_DIRECTIONAL_STREAM_SERVICE)))
           .build();
     }
   }
@@ -301,10 +301,10 @@ public final class StreamServiceGrpc {
 
     /**
      */
-    public io.grpc.stub.StreamObserver<service.Stream.RequestData> biDirectionStreamService(
+    public io.grpc.stub.StreamObserver<service.Stream.RequestData> biDirectionalStreamService(
         io.grpc.stub.StreamObserver<service.Stream.ResponseData> responseObserver) {
       return asyncBidiStreamingCall(
-          getChannel().newCall(getBiDirectionStreamServiceMethod(), getCallOptions()), responseObserver);
+          getChannel().newCall(getBiDirectionalStreamServiceMethod(), getCallOptions()), responseObserver);
     }
   }
 
@@ -364,7 +364,7 @@ public final class StreamServiceGrpc {
   private static final int METHODID_SIMPLE_SERVICE = 0;
   private static final int METHODID_SERVER_SIDE_STREAM_SERVICE = 1;
   private static final int METHODID_CLIENT_SIDE_STREAM_SERVICE = 2;
-  private static final int METHODID_BI_DIRECTION_STREAM_SERVICE = 3;
+  private static final int METHODID_BI_DIRECTIONAL_STREAM_SERVICE = 3;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -404,8 +404,8 @@ public final class StreamServiceGrpc {
         case METHODID_CLIENT_SIDE_STREAM_SERVICE:
           return (io.grpc.stub.StreamObserver<Req>) serviceImpl.clientSideStreamService(
               (io.grpc.stub.StreamObserver<service.Stream.ResponseData>) responseObserver);
-        case METHODID_BI_DIRECTION_STREAM_SERVICE:
-          return (io.grpc.stub.StreamObserver<Req>) serviceImpl.biDirectionStreamService(
+        case METHODID_BI_DIRECTIONAL_STREAM_SERVICE:
+          return (io.grpc.stub.StreamObserver<Req>) serviceImpl.biDirectionalStreamService(
               (io.grpc.stub.StreamObserver<service.Stream.ResponseData>) responseObserver);
         default:
           throw new AssertionError();
@@ -461,7 +461,7 @@ public final class StreamServiceGrpc {
               .addMethod(getSimpleServiceMethod())
               .addMethod(getServerSideStreamServiceMethod())
               .addMethod(getClientSideStreamServiceMethod())
-              .addMethod(getBiDirectionStreamServiceMethod())
+              .addMethod(getBiDirectionalStreamServiceMethod())
               .build();
         }
       }

@@ -1321,15 +1321,15 @@ public final class Stream {
     java.lang.String[] descriptorData = {
       "\n\014stream.proto\022\007service\",\n\013RequestData\022\014" +
       "\n\004name\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\"\037\n\014Respons" +
-      "eData\022\017\n\007message\030\001 \001(\t2\266\002\n\rStreamService" +
+      "eData\022\017\n\007message\030\001 \001(\t2\270\002\n\rStreamService" +
       "\022>\n\rSimpleService\022\024.service.RequestData\032" +
       "\025.service.ResponseData\"\000\022J\n\027ServerSideSt" +
       "reamService\022\024.service.RequestData\032\025.serv" +
       "ice.ResponseData\"\0000\001\022J\n\027ClientSideStream" +
       "Service\022\024.service.RequestData\032\025.service." +
-      "ResponseData\"\000(\001\022M\n\030BiDirectionStreamSer" +
-      "vice\022\024.service.RequestData\032\025.service.Res" +
-      "ponseData\"\000(\0010\001b\006proto3"
+      "ResponseData\"\000(\001\022O\n\032BiDirectionalStreamS" +
+      "ervice\022\024.service.RequestData\032\025.service.R" +
+      "esponseData\"\000(\0010\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

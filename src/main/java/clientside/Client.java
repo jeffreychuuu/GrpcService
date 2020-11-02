@@ -1,20 +1,14 @@
-package clientSide;
+package clientside;
 
 import io.grpc.Channel;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import io.grpc.StatusRuntimeException;
 import io.grpc.stub.StreamObserver;
-import service.Stream;
 import service.Stream.*;
 import service.StreamServiceGrpc;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Iterator;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import service.StreamServiceGrpc.*;
@@ -69,7 +63,7 @@ public class Client {
     }
 
     public static void main(String[] args) throws Exception {
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
+        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50053).usePlaintext().build();
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("What is your name?");

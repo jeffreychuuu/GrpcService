@@ -1,4 +1,4 @@
-package clientSide;
+package clientside;
 
 import io.grpc.ServerBuilder;
 import service.StreamServiceImpl;
@@ -6,7 +6,7 @@ import service.StreamServiceImpl;
 import java.io.IOException;
 
 public class Server {
-    private static final int PORT = 50051;
+    private static final int PORT = 50053;
     private io.grpc.Server server;
 
     public void start() throws IOException {
