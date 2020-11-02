@@ -17,6 +17,8 @@ sourceSets {
             java {
                 srcDirs 'build/generated/source/proto/main/grpc'
                 srcDirs 'build/generated/source/proto/main/java'
+                srcDirs 'build/generated/source/proto/main/java/service'
+                srcDirs 'build/generated/source/proto/main/java/simple'
             }
         }
     }

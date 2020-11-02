@@ -1,0 +1,18 @@
+syntax = "proto3";
+package service;
+
+service StreamService {
+  rpc SimpleService(RequestData) returns (ResponseData) {}
+  rpc ServerSideStreamService(RequestData) returns (stream ResponseData) {}
+  rpc ClientSideStreamService(stream RequestData) returns (ResponseData) {}
+  rpc BiDirectionStreamService(stream RequestData) returns (stream ResponseData) {}
+}
+
+message RequestData {
+  string name = 1;
+  string message = 2;
+}
+
+message ResponseData {
+  string message = 1;
+}

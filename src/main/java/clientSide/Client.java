@@ -1,0 +1,87 @@
+package clientSide;
+
+import io.grpc.Channel;
+import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
+import io.grpc.StatusRuntimeException;
+import io.grpc.stub.StreamObserver;
+import service.Stream;
+import service.Stream.*;
+import service.StreamServiceGrpc;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Iterator;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import service.StreamServiceGrpc.*;
+
+public class Client {
+    private static final Logger logger = Logger.getLogger(simple.Client.class.getName());
+    private final StreamServiceStub asyncStub;
+
+    ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
+
+    public Client(Channel channel) {
+        asyncStub = StreamServiceGrpc.newStub(channel);
+    }
+
+    public void send(String name, String message) {
+        StreamObserver<ResponseData> responseData = new StreamObserver<ResponseData>() {
+            @Override
+            public void onNext(ResponseData value) {
+                // TODO Auto-generated method stub
+                System.out.println(value.getMessage());
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                // TODO Auto-generated method stub
+                t.printStackTrace();
+            }
+
+            @Override
+            public void onCompleted() {
+                // TODO Auto-generated method stub
+                channel.shutdown();
+            }
+        };
+
+        StreamObserver<RequestData> request = asyncStub.clientSideStreamService(responseData);
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < 10; i++) {
+            request.onNext(RequestData.newBuilder()
+                    .setName(name)
+                    .setMessage(message + " " + name + " " + i).build());
+        }
+        request.onCompleted();
+        System.out.println(System.currentTimeMillis() - start + " MS");
+
+        try{
+            // Sleep for 10s due to async job
+            Thread.sleep(10000);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) throws Exception {
+        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("What is your name?");
+        String name = br.readLine();
+        System.out.println("What message you would like to send to server?");
+        String message = br.readLine();
+
+        try {
+            Client client = new Client(channel);
+            client.send(name, message);
+        } finally {
+            channel.shutdown();
+        }
+    }
+}

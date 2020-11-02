@@ -2,117 +2,184 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54111cb-1847-49d9-9218-cfcd8bf272e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/twoWay/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/stream.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequestOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequestOrBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponseOrBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponseOrBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/HelloWorldClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/annotations.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/auth.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/backend.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/billing.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/client.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/config_change.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/consumer.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/context.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/control.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/distribution.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/documentation.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/endpoint.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/field_behavior.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/http.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/httpbody.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/label.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/launch_stage.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/log.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/logging.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/metric.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/monitored_resource.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/monitoring.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/quota.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/resource.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/service.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/source_info.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/system_parameter.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/api/usage.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/cloud/audit/audit_log.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/geo/type/viewport.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/logging/type/http_request.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/logging/type/log_severity.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/longrunning/operations.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/any.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/api.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/compiler/plugin.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/descriptor.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/duration.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/empty.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/field_mask.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/source_context.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/struct.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/timestamp.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/type.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/protobuf/wrappers.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/code.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/error_details.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/rpc/status.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/calendar_period.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/color.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/date.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/dayofweek.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/expr.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/fraction.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/latlng.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/money.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/postal_address.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/quaternion.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/google/type/timeofday.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/test/hello.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/proto/main/java/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/HelloWorldGrpc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/HelloWorldGrpcServer.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/hello.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorldClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorldClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorldServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloWorldServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/proto/hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/hello.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloRequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello$HelloResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$HelloWorldServiceBaseDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$HelloWorldServiceBlockingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$HelloWorldServiceFileDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$HelloWorldServiceFutureStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$HelloWorldServiceImplBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$HelloWorldServiceMethodDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$HelloWorldServiceStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc$MethodHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceGrpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/HelloWorldServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/annotations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/auth.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/backend.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/billing.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/client.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/config_change.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/consumer.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/control.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/distribution.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/documentation.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/endpoint.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/field_behavior.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/http.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/httpbody.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/label.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/launch_stage.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/log.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/logging.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/metric.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitored_resource.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/monitoring.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/quota.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/resource.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/source_info.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/system_parameter.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/api/usage.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/cloud/audit/audit_log.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/geo/type/viewport.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/http_request.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/logging/type/log_severity.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/longrunning/operations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/compiler/plugin.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/duration.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/empty.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/field_mask.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/source_context.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/struct.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/timestamp.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/type.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/protobuf/wrappers.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/code.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/error_details.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/rpc/status.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/calendar_period.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/color.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/date.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/dayofweek.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/expr.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/fraction.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/latlng.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/money.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/postal_address.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/quaternion.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extracted-include-protos/main/google/type/timeofday.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/HelloWorldServiceGrpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/hello.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloRequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloResponse$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello$HelloResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$HelloWorldServiceBaseDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$HelloWorldServiceBlockingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$HelloWorldServiceFileDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$HelloWorldServiceFutureStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$HelloWorldServiceImplBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$HelloWorldServiceMethodDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$HelloWorldServiceStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc$MethodHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceGrpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HelloWorldServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorldClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorldServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorldServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/StreamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/hello.proto" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloWorldGrpc" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloWorldGrpc" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloWorldGrpc" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,28 +192,145 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.HelloWorldClient">
-    <configuration name="HelloWorldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorldClient" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="twoWay" />
+      <recent name="clientSide" />
+      <recent name="serverSide" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\HelloWorldGrpc\src\main\java\twoWay" />
+      <recent name="D:\git\HelloWorldGrpc\src\main\java\clientSide" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client (2)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverSide.Client" />
       <module name="HelloWorldGrpc.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serverSide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorldServer" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoWay.Client" />
       <module name="HelloWorldGrpc.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoWay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clientSide.Client" />
+      <module name="HelloWorldGrpc.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clientSide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clientSide.Server" />
+      <module name="HelloWorldGrpc.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clientSide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoWay.Server" />
+      <module name="HelloWorldGrpc.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoWay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="GrpcService" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="GrpcService" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorldClient" />
-        <item itemvalue="Application.HelloWorldServer" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -164,21 +348,56 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1784" height="295" key="GridCell.Tab.0.bottom" timestamp="1604028316330">
+    <state x="486" y="114" key="#Project_Structure" timestamp="1604046675295">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.bottom/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604028316330" />
-    <state width="1784" height="295" key="GridCell.Tab.0.center" timestamp="1604028316330">
+    <state x="486" y="114" key="#Project_Structure/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604046675295" />
+    <state x="758" y="404" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604047783068">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.center/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604028316330" />
-    <state width="1784" height="295" key="GridCell.Tab.0.left" timestamp="1604028316330">
+    <state x="758" y="404" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604047783068" />
+    <state x="786" y="294" key="FileChooserDialogImpl" timestamp="1604281995987">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.left/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604028316330" />
-    <state width="1784" height="295" key="GridCell.Tab.0.right" timestamp="1604028316330">
+    <state x="786" y="294" key="FileChooserDialogImpl/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604281995987" />
+    <state width="1784" height="295" key="GridCell.Tab.0.bottom" timestamp="1604297408339">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
-    <state width="1784" height="295" key="GridCell.Tab.0.right/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604028316330" />
+    <state width="1784" height="295" key="GridCell.Tab.0.bottom/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604297408339" />
+    <state width="1784" height="295" key="GridCell.Tab.0.center" timestamp="1604297408339">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="295" key="GridCell.Tab.0.center/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604297408339" />
+    <state width="1784" height="295" key="GridCell.Tab.0.left" timestamp="1604297408339">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="295" key="GridCell.Tab.0.left/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604297408339" />
+    <state width="1784" height="295" key="GridCell.Tab.0.right" timestamp="1604297408339">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="295" key="GridCell.Tab.0.right/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604297408339" />
+    <state width="1784" height="364" key="GridCell.Tab.1.bottom" timestamp="1604295927092">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.bottom/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604295927092" />
+    <state width="1784" height="364" key="GridCell.Tab.1.center" timestamp="1604295927092">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.center/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604295927092" />
+    <state width="1784" height="364" key="GridCell.Tab.1.left" timestamp="1604295927092">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.left/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604295927092" />
+    <state width="1784" height="364" key="GridCell.Tab.1.right" timestamp="1604295927092">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="364" key="GridCell.Tab.1.right/93.0.1827.1080/1982.91.1858.1080@93.0.1827.1080" timestamp="1604295927092" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="blockingStub.serverSideStreamService(request)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
